@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.HomePage{
+  width: 100%;
+  height: auto;
+  background-color: rgb(187, 247, 246);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Sky{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://1.bp.blogspot.com/--kflukKM3cA/XvSuQDlb_aI/AAAAAAAAVng/sTA3jBh7KtAtepJ2c5yyDZemzWXXHFzQwCK4BGAsYHg/w976-h549/wallpaper-4k-for-pc--heroscreen.cc.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.eagleImg{
+  position: static;
+  animation: moveEagle infinite 1s;
+}
+@keyframes moveEagle {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); /* Adjust the distance as needed */
+  }
+  100% {
+    transform: translateX(0);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link{
+  text-decoration: none;
   color: white;
 }
+.nav-link:hover{
+  color: cyan;
+}
+.BirdsImg{
+  transform: scaleX(-1);
+}
+.SkyImage{
+  height: 200vh;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .SkyImage {
+    height: 80vh;
+  }
 
-.App-link {
-  color: #61dafb;
+  .SkyImage p {
+    opacity: 0;
+  }
+  .ImageInParallax{
+    opacity: 0;
+  }
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BirdImg1 {
+  width: 100%;
+  height: auto; /* Allow the height to adjust based on the aspect ratio */
+  max-height: 50vh;
+  object-fit: cover;
 }
+.content{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin-left: 5px;
+  text-align: center;
+}
+.content span .img-txt{
+  background-color: skyblue;
+  color: white;
+  
+}
+#FlyingBirds1{
+  transform: scaleX(-1);
+}
+#SkyBtn{
+  background-color: white;
+  border-radius: 15px;
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
