@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/EarthDiscover/static/css/main.45caedfd.css",
-    "main.js": "/EarthDiscover/static/js/main.ec5ab5b7.js",
+    "main.js": "/EarthDiscover/static/js/main.5ad1b693.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
     "static/media/Ocean2.jpg": "/EarthDiscover/static/media/Ocean2.ce6e48e1e62fa01da12c.jpg",
+    "static/media/GalaxySpaceVideo.mp4": "/EarthDiscover/static/media/GalaxySpaceVideo.3da5a9a2170f31a0d628.mp4",
     "static/media/GalaxyStar.jpg": "/EarthDiscover/static/media/GalaxyStar.6d41b2ac58abb0db6606.jpg",
     "static/media/Sea1.jpg": "/EarthDiscover/static/media/Sea1.fb3bf96365e5ce43fbaf.jpg",
+    "static/media/GalaxyWorld.jpg": "/EarthDiscover/static/media/GalaxyWorld.65b2d8ec3b4ad8ec5f40.jpg",
     "static/media/Forest.jpg": "/EarthDiscover/static/media/Forest.147d33fc250eb6d1ee1c.jpg",
     "static/media/Sky4.jpg": "/EarthDiscover/static/media/Sky4.2fd29b1fee71bfa6134d.jpg",
     "static/media/Clown-Fish.gif": "/EarthDiscover/static/media/Clown-Fish.a5727dc8c2e5a85b658a.gif",
@@ -20,11 +22,11 @@
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
     "main.45caedfd.css.map": "/EarthDiscover/static/css/main.45caedfd.css.map",
-    "main.ec5ab5b7.js.map": "/EarthDiscover/static/js/main.ec5ab5b7.js.map",
+    "main.5ad1b693.js.map": "/EarthDiscover/static/js/main.5ad1b693.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45caedfd.css",
-    "static/js/main.ec5ab5b7.js"
+    "static/js/main.5ad1b693.js"
   ]
 }
