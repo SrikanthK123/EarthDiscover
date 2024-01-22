@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/EarthDiscover/static/css/main.214f37a4.css",
-    "main.js": "/EarthDiscover/static/js/main.d6e7f21d.js",
+    "main.css": "/EarthDiscover/static/css/main.45caedfd.css",
+    "main.js": "/EarthDiscover/static/js/main.964343aa.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
     "static/media/Ocean3.jpg": "/EarthDiscover/static/media/Ocean3.47e0e4832ccf5c1361b4.jpg",
+    "static/media/GalaxyStar.jpg": "/EarthDiscover/static/media/GalaxyStar.6d41b2ac58abb0db6606.jpg",
     "static/media/Sea1.jpg": "/EarthDiscover/static/media/Sea1.fb3bf96365e5ce43fbaf.jpg",
     "static/media/Forest.jpg": "/EarthDiscover/static/media/Forest.147d33fc250eb6d1ee1c.jpg",
     "static/media/Sky4.jpg": "/EarthDiscover/static/media/Sky4.2fd29b1fee71bfa6134d.jpg",
@@ -13,15 +14,14 @@
     "static/media/BirdGif.gif": "/EarthDiscover/static/media/BirdGif.18f870f2814e4e21ade8.gif",
     "static/media/Rocket.gif": "/EarthDiscover/static/media/Rocket.4c608b31e96500323ea7.gif",
     "static/media/Sea4.jpg": "/EarthDiscover/static/media/Sea4.7186fae856999094bfdc.jpg",
-    "static/media/ButterFly.jpg": "/EarthDiscover/static/media/ButterFly.3ac1a9152742cb7b491f.jpg",
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
-    "main.214f37a4.css.map": "/EarthDiscover/static/css/main.214f37a4.css.map",
-    "main.d6e7f21d.js.map": "/EarthDiscover/static/js/main.d6e7f21d.js.map",
+    "main.45caedfd.css.map": "/EarthDiscover/static/css/main.45caedfd.css.map",
+    "main.964343aa.js.map": "/EarthDiscover/static/js/main.964343aa.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.214f37a4.css",
-    "static/js/main.d6e7f21d.js"
+    "static/css/main.45caedfd.css",
+    "static/js/main.964343aa.js"
   ]
 }
