@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EarthDiscover/static/css/main.a7af10d4.css",
-    "main.js": "/EarthDiscover/static/js/main.545aeb12.js",
+    "main.css": "/EarthDiscover/static/css/main.2ddc597d.css",
+    "main.js": "/EarthDiscover/static/js/main.ccd14230.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
     "static/media/Ocean2.jpg": "/EarthDiscover/static/media/Ocean2.ce6e48e1e62fa01da12c.jpg",
     "static/media/GalaxySpaceVideo.mp4": "/EarthDiscover/static/media/GalaxySpaceVideo.3da5a9a2170f31a0d628.mp4",
@@ -17,18 +17,21 @@
     "static/media/Ocean5.jpg": "/EarthDiscover/static/media/Ocean5.12ada683a0e3981c4919.jpg",
     "static/media/LionGif.gif": "/EarthDiscover/static/media/LionGif.29e9c2330e9d86aeb91b.gif",
     "static/media/BirdGif.gif": "/EarthDiscover/static/media/BirdGif.18f870f2814e4e21ade8.gif",
+    "static/media/Uranus2.gif": "/EarthDiscover/static/media/Uranus2.664e2c84f8fb03b9f03d.gif",
+    "static/media/Venus2.gif": "/EarthDiscover/static/media/Venus2.900eed98de440a39172a.gif",
     "static/media/FlyingParachute.jpg": "/EarthDiscover/static/media/FlyingParachute.4e1a64536f7cb16d46a8.jpg",
     "static/media/Rocket.gif": "/EarthDiscover/static/media/Rocket.4c608b31e96500323ea7.gif",
     "static/media/Shell.gif": "/EarthDiscover/static/media/Shell.249ea909347f8064f27e.gif",
     "static/media/Sea4.jpg": "/EarthDiscover/static/media/Sea4.7186fae856999094bfdc.jpg",
+    "static/media/Saturn2.gif": "/EarthDiscover/static/media/Saturn2.0397038e4426402aab1a.gif",
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
-    "main.a7af10d4.css.map": "/EarthDiscover/static/css/main.a7af10d4.css.map",
-    "main.545aeb12.js.map": "/EarthDiscover/static/js/main.545aeb12.js.map",
+    "main.2ddc597d.css.map": "/EarthDiscover/static/css/main.2ddc597d.css.map",
+    "main.ccd14230.js.map": "/EarthDiscover/static/js/main.ccd14230.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7af10d4.css",
-    "static/js/main.545aeb12.js"
+    "static/css/main.2ddc597d.css",
+    "static/js/main.ccd14230.js"
   ]
 }
