@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EarthDiscover/static/css/main.539076bf.css",
-    "main.js": "/EarthDiscover/static/js/main.44b59fb5.js",
+    "main.css": "/EarthDiscover/static/css/main.c6a1690c.css",
+    "main.js": "/EarthDiscover/static/js/main.8ddad3cf.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
     "static/media/Ocean2.jpg": "/EarthDiscover/static/media/Ocean2.ce6e48e1e62fa01da12c.jpg",
     "static/media/GalaxySpaceVideo.mp4": "/EarthDiscover/static/media/GalaxySpaceVideo.3da5a9a2170f31a0d628.mp4",
@@ -17,6 +17,7 @@
     "static/media/Ocean5.jpg": "/EarthDiscover/static/media/Ocean5.12ada683a0e3981c4919.jpg",
     "static/media/LionGif.gif": "/EarthDiscover/static/media/LionGif.29e9c2330e9d86aeb91b.gif",
     "static/media/BirdGif.gif": "/EarthDiscover/static/media/BirdGif.18f870f2814e4e21ade8.gif",
+    "static/media/SolarSystamGalaxy.mp4": "/EarthDiscover/static/media/SolarSystamGalaxy.1094000b2c92114518b1.mp4",
     "static/media/Uranus2.gif": "/EarthDiscover/static/media/Uranus2.664e2c84f8fb03b9f03d.gif",
     "static/media/Venus2.gif": "/EarthDiscover/static/media/Venus2.900eed98de440a39172a.gif",
     "static/media/FlyingParachute.jpg": "/EarthDiscover/static/media/FlyingParachute.4e1a64536f7cb16d46a8.jpg",
@@ -26,12 +27,12 @@
     "static/media/Saturn2.gif": "/EarthDiscover/static/media/Saturn2.0397038e4426402aab1a.gif",
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
-    "main.539076bf.css.map": "/EarthDiscover/static/css/main.539076bf.css.map",
-    "main.44b59fb5.js.map": "/EarthDiscover/static/js/main.44b59fb5.js.map",
+    "main.c6a1690c.css.map": "/EarthDiscover/static/css/main.c6a1690c.css.map",
+    "main.8ddad3cf.js.map": "/EarthDiscover/static/js/main.8ddad3cf.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.539076bf.css",
-    "static/js/main.44b59fb5.js"
+    "static/css/main.c6a1690c.css",
+    "static/js/main.8ddad3cf.js"
   ]
 }
