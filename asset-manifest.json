@@ -1,12 +1,18 @@
 {
   "files": {
     "main.css": "/EarthDiscover/static/css/main.fea8a65e.css",
-    "main.js": "/EarthDiscover/static/js/main.241ce501.js",
+    "main.js": "/EarthDiscover/static/js/main.dae1e3b9.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
+    "static/media/jupiter4K.mp4": "/EarthDiscover/static/media/jupiter4K.87d53d00a0d84f893227.mp4",
+    "static/media/Uranus.mp4": "/EarthDiscover/static/media/Uranus.8975ef4bd4f35e3dbcbc.mp4",
+    "static/media/Neptune.mp4": "/EarthDiscover/static/media/Neptune.2b448812f997db6ba2bc.mp4",
     "static/media/Ocean2.jpg": "/EarthDiscover/static/media/Ocean2.ce6e48e1e62fa01da12c.jpg",
+    "static/media/Mars4K.mp4": "/EarthDiscover/static/media/Mars4K.5ed1c4ccd29a87f41e14.mp4",
     "static/media/Mercury.mp4": "/EarthDiscover/static/media/Mercury.153a76714b074ec37d57.mp4",
     "static/media/GalaxySpaceVideo.mp4": "/EarthDiscover/static/media/GalaxySpaceVideo.3da5a9a2170f31a0d628.mp4",
+    "static/media/Venus4K.mp4": "/EarthDiscover/static/media/Venus4K.8902bdc3528eab739fb9.mp4",
     "static/media/GalaxyStar.jpg": "/EarthDiscover/static/media/GalaxyStar.6d41b2ac58abb0db6606.jpg",
+    "static/media/Earth4k.mp4": "/EarthDiscover/static/media/Earth4k.f640bcc5114e7f8a208f.mp4",
     "static/media/Sea1.jpg": "/EarthDiscover/static/media/Sea1.fb3bf96365e5ce43fbaf.jpg",
     "static/media/GalaxyWorld.jpg": "/EarthDiscover/static/media/GalaxyWorld.65b2d8ec3b4ad8ec5f40.jpg",
     "static/media/GalaxyWorldUni.mp4": "/EarthDiscover/static/media/GalaxyWorldUni.572adfa09192f416d2e0.mp4",
@@ -16,6 +22,7 @@
     "static/media/NightForest.jpg": "/EarthDiscover/static/media/NightForest.d9b997aadef5fb5cc902.jpg",
     "static/media/Forest2.jpg": "/EarthDiscover/static/media/Forest2.d06525c71a167fd43c59.jpg",
     "static/media/Ocean5.jpg": "/EarthDiscover/static/media/Ocean5.12ada683a0e3981c4919.jpg",
+    "static/media/saturn4K.mp4": "/EarthDiscover/static/media/saturn4K.f7e23388876e25baaf91.mp4",
     "static/media/LionGif.gif": "/EarthDiscover/static/media/LionGif.29e9c2330e9d86aeb91b.gif",
     "static/media/BirdGif.gif": "/EarthDiscover/static/media/BirdGif.18f870f2814e4e21ade8.gif",
     "static/media/SolarSystamGalaxy.mp4": "/EarthDiscover/static/media/SolarSystamGalaxy.1094000b2c92114518b1.mp4",
@@ -29,11 +36,11 @@
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
     "main.fea8a65e.css.map": "/EarthDiscover/static/css/main.fea8a65e.css.map",
-    "main.241ce501.js.map": "/EarthDiscover/static/js/main.241ce501.js.map",
+    "main.dae1e3b9.js.map": "/EarthDiscover/static/js/main.dae1e3b9.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fea8a65e.css",
-    "static/js/main.241ce501.js"
+    "static/js/main.dae1e3b9.js"
   ]
 }
