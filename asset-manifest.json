@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EarthDiscover/static/css/main.7f45a58a.css",
-    "main.js": "/EarthDiscover/static/js/main.e2974564.js",
+    "main.css": "/EarthDiscover/static/css/main.ca55b94c.css",
+    "main.js": "/EarthDiscover/static/js/main.7b8c7cc6.js",
     "static/js/787.e7171e50.chunk.js": "/EarthDiscover/static/js/787.e7171e50.chunk.js",
     "static/media/jupiter4K.mp4": "/EarthDiscover/static/media/jupiter4K.87d53d00a0d84f893227.mp4",
     "static/media/Uranus.mp4": "/EarthDiscover/static/media/Uranus.8975ef4bd4f35e3dbcbc.mp4",
@@ -38,12 +38,12 @@
     "static/media/Saturn2.gif": "/EarthDiscover/static/media/Saturn2.0397038e4426402aab1a.gif",
     "static/media/logo.svg": "/EarthDiscover/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EarthDiscover/index.html",
-    "main.7f45a58a.css.map": "/EarthDiscover/static/css/main.7f45a58a.css.map",
-    "main.e2974564.js.map": "/EarthDiscover/static/js/main.e2974564.js.map",
+    "main.ca55b94c.css.map": "/EarthDiscover/static/css/main.ca55b94c.css.map",
+    "main.7b8c7cc6.js.map": "/EarthDiscover/static/js/main.7b8c7cc6.js.map",
     "787.e7171e50.chunk.js.map": "/EarthDiscover/static/js/787.e7171e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f45a58a.css",
-    "static/js/main.e2974564.js"
+    "static/css/main.ca55b94c.css",
+    "static/js/main.7b8c7cc6.js"
   ]
 }
