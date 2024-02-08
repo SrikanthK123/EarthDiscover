@@ -45,36 +45,25 @@
     height: 80vh;
   }
 
-  .SkyImage p {
+  /*.SkyImage p {
     opacity: 0;
   }
   .ImageInParallax{
     opacity: 0;
+  }*/
+  .ImageInParallax{
+    padding: 30px;
+    height:200px ;
   }
- 
 }
 
 .BirdImg1 {
   width: 100%;
-  height: auto; /* Allow the height to adjust based on the aspect ratio */
+  height: auto; 
   max-height: 50vh;
   object-fit: cover;
 }
-.content{
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  margin-left: 5px;
-  text-align: center;
-}
-.content span .img-txt{
-  background-color: skyblue;
-  color: white;
-  
-}
+
 #FlyingBirds1{
   transform: scaleX(-1);
 }
@@ -85,5 +74,409 @@
   margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+#RocketPointing{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Person{
+  animation: RotatePerson infinite 7s;
+}
+
+@keyframes RotatePerson {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.BGChangeTesting{
+  animation: BGChange linear forwards;
+  animation-timeline: view(y);
+ }
+ @keyframes BGChange{
+  25%{
+   
+    background-color: #252A36;
+    }
+  75%{
+   
+  background-color: #155263;
+  }
+  100%{
+   
+    background-color: #252A36;
+    }
+ }
+ #Box span{
+
+  color: hsl(0 0% 100% / 0.2);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient( 90deg,rgb(33, 30, 33), rgb(110, 99, 34));
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view(y);
+  
+
+ }
+ 
+#Box #MainTitle span{
+  animation-range-start: cover 20vh;
+  animation-range-end: cover 30vh;
+}
+#Box #Para span{
+  animation-range-start: cover 22.5vh;
+  animation-range-end: cover 50vh;
+}
+
+ @keyframes scroll-reveal {
+  to{
+    background-size: 100% 100%;
+    
+  }
+ }
+
+ #ExploreBtn{
+  background-color: rgb(33, 30, 33) ;
+  color: rgb(110, 99, 34);
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+ }
+ #ExploreBtn:hover{
+  background-color: rgb(110, 99, 34);
+  color: rgb(33, 30, 33);
+  border: 2px solid white;
+  
+  
+ }
+ #Box2 span{
+
+  color: hsl(0 0% 100% / 0.2);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient( 90deg,rgb(89, 156, 182), rgb(71, 29, 5));
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view(y);
+  
+
+ }
+ 
+#Box2 #MainTitle span{
+  animation-range-start: cover 20vh;
+  animation-range-end: cover 30vh;
+}
+#Box2 #Para span{
+  animation-range-start: cover 22.5vh;
+  animation-range-end: cover 50vh;
+}
+
+#Box3 span{
+
+  color: hsl(0 0% 100% / 0.2);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient( 90deg,#87abb6, #253943);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view(y);
+  
+
+ }
+ 
+#Box3 #MainTitle span{
+  animation-range-start: cover 20vh;
+  animation-range-end: cover 30vh;
+}
+#Box3 #Para span{
+  animation-range-start: cover 22.5vh;
+  animation-range-end: cover 50vh;
+}
+
+.Rock{
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  right: 42%;
+  animation: RockMomet 1 5s;
+ 
+
+}
+@keyframes RockMomet{
+  0%{
+    height: 10px;
+    width: 10px;
+    transform: translateX(500px);
+    
+        
+  }
+}
+
+.Rock{
+  filter: drop-shadow(14px 14px 30px rgb(211, 91, 31));
+}
+.Butterfly{
+  width: 180px;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  right: 42%;
+  animation: RockMomet 1 5s;
+ 
+
+}
+@keyframes RockMomet{
+  0%{
+    height: 10px;
+    width: 10px;
+    transform: translateX(500px);
+    
+        
+  }
+}
+
+#SolarSystem{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-image: url("https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+
+#ExplorePlanetBtn{
+  background-color: rgb(32, 31, 31) ;
+  color: white;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 1s ease-in-out
+ }
+ #ExplorePlanetBtn:hover{
+  background-color: #385170;
+  color: #e7eaf6;
+  border: 2px solid white;
+  
+ }
+ #PlanetSingle{
+  background: rgba(55, 122, 208, 0.2);
+  border-radius: 15px;
+ /* animation: LightMotion infinite 5s;*/
+  
+  
+ }
+ @keyframes LightMotion{
+
+  25%{
+    border-top: 1px solid white;
+  }
+  50%{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+  }
+  75%{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  100%{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+
+
+
+ }
+ #PlanetSingle:hover{
+  animation: ChangeColor infinite 3s ease-in-out;
+ }
+ @keyframes ChangeColor {
+  0% {
+    background: linear-gradient(to right bottom, rgba(29, 25, 25, 0), rgba(29, 25, 25, 0.351));
+  }
+  25% {
+    background: linear-gradient(to right top, rgba(29, 25, 25, 0.25), rgba(29, 25, 25, 0.351));
+  }
+  50% {
+    background: linear-gradient(to left bottom, rgba(29, 25, 25, 0.5), rgba(29, 25, 25, 0.351));
+  }
+  75% {
+    background: linear-gradient(to left top, rgba(29, 25, 25, 0.75), rgba(29, 25, 25, 0.351));
+  }
+  100% {
+    background: linear-gradient(to right bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.351));
+  }
+}
+
+#ParallaxLayer3{
+  height: 80vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;  /* mozilla */
+
+}
+#ParallaxLayer2{
+  height: 80vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;  /* mozilla */
+
+}
+#ParallaxMain{
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;  /* mozilla */
+}
+#PlantesBullets{
+  list-style: none;
+  display: flex;
+}
+#PlantesBullets::before{
+  content: "\1FA90";
+}
+#Logo{
+  margin-bottom: 15px;
+ border-radius: 15px;
+  box-shadow: rgba(255, 251, 251, 0.25) 0px 54px 55px, rgba(252, 244, 244, 0.12) 0px -12px 30px, rgba(235, 216, 216, 0.12) 0px 4px 6px, rgba(237, 228, 228, 0.17) 0px 12px 13px, rgba(232, 224, 224, 0.09) 0px -3px 5px;
+}
+#LinkedIn{
+  color: white;
+}
+#Insta{
+  color: white;
+}
+#Github{
+  color: white;
+}
+#LinkedIn:hover{
+  color: rgb(50, 50, 226);
+}
+#Insta:hover{
+  color: rgb(252, 67, 196);
+}
+#Github:hover{
+  color: rgb(149, 147, 147);
+}
+#HomeParallax{
+  background-color: #252A36;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;  /* mozilla */
+
+}
+#Birds{
+  
+ width: 90px;
+ border-radius: 15px;
+}
+#Birds > .ViewBird{
+  opacity: 0;
+}
+#Birds:hover{
+ background-color: rgba(0, 0, 0, 0.45);
+  
+}
+#Birds:hover > .ViewBird{
+  opacity: 1;
+}
+.ViewBird{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+.birdsBtn{
+  background-color:rgba(136, 29, 82, 0.45);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+#BirdContentBox span{
+
+  color: hsla(0, 0%, 100%, 0.152);
+  background-repeat: no-repeat;
+  background-clip: text;
+  background-size: 0% 100%;
+  background-image: linear-gradient( 90deg,#9fd3c7, #ffb5b5);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view(y);
+  
+
+ }
+ 
+#BirdContentBox #MainTitle span{
+  animation-range-start: cover 20vh;
+  animation-range-end: cover 30vh;
+}
+#BirdContentBox #Para span{
+  animation-range-start: cover 22.5vh;
+  animation-range-end: cover 50vh;
+}
+
+#NatureBullets{
+  list-style: none;
+  display: flex;
+}
+#NatureBullets::before{
+  content: "\1F333";
+}
+#SentMsg{
+  background-color: #9fd3c7;
+  transition: 0.5s ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#SentMsg:hover{
+  background-color: #5c5470;
+  color: white;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#DeleteIcon{
+  color:#155263;
+  transition: 0.5s ease;
+}
+#DeleteIcon:hover{
+  color:#c51350;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  #CommentMessage {
+    font-size: 10px;  
+    line-height: 1.2rem;
+  }
+}
+  #EV {
+  color: white;
+  animation-name: lightingText;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lightingText{
+  50% {
+    color:#f70776;
+  }
 }
 

@@ -68,6 +68,66 @@ const Contact = () => {
       </div><img src='https://i.pinimg.com/originals/66/94/b3/6694b3076508b8e9229c378efa5d66d7.gif' />
     </div>
   </div>
+  <Parallax pages={5} ref={ref}>
+        {/* First Layer */}
+        <ParallaxLayer offset={0} speed={0.3} factor={2} style={{ backgroundImage: `url(${SkyImg})`, backgroundSize: 'cover',backgroundColor:'#36231c',backgroundPosition:'top',backgroundRepeat:'no-repeat',backgroundAttachment:'fixed'}}>
+          <div className="container my-5">
+            <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 ">
+              <div className="col-lg-6">
+                <h3 className="display-5 fw-bold lh-1 mb-3" style={{ color: 'white', textAlign: 'center' }}>In the Heart of the Forest, Animals Write Their Story.</h3>
+                <p className="lead" style={{ color: 'white', textAlign: 'center' }}>Forest animals thrive in nature's embrace, contributing to the vibrant symphony of life within the lush canopies and diverse ecosystems of the woodland realm</p>
+              </div>
+            </div>
+          </div>
+        </ParallaxLayer>
+
+        {/* Second Layer */}
+        <ParallaxLayer offset={1} speed={0.3} factor={2} style={{ backgroundImage: `url(${Sky})`, backgroundSize: 'cover',backgroundColor:'#36231c', }}>
+          <div className="container my-5">
+            <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 ">
+              <div className="col-lg-6">
+                <h3 className="display-5 fw-bold lh-1 mb-3" style={{ color: 'white', textAlign: 'center' }}>In the Heart of the Forest, Animals Write Their Story.</h3>
+                <p className="lead" style={{ color: 'white', textAlign: 'center' }}>Forest animals thrive in nature's embrace, contributing to the vibrant symphony of life within the lush canopies and diverse ecosystems of the woodland realm</p>
+              </div>
+            </div>
+          </div>
+        </ParallaxLayer>
+
+        {/* Third Layer */}
+        <ParallaxLayer offset={2} speed={0.3} factor={1.5} style={{ backgroundImage: `url(${Forest2})`, backgroundSize: '100%',backgroundColor:'#071318',backgroundPosition:'top',backgroundRepeat:'no-repeat',backgroundAttachment:'fixed'}}>
+          <div className="container my-5">
+            <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 ">
+              <div className="col-lg-6">
+                <h3 className="display-5 fw-bold lh-1 mb-3" style={{ color: 'white', textAlign: 'center' }}>In the Heart of the Forest, Animals Write Their Story.</h3>
+                <p className="lead" style={{ color: 'white', textAlign: 'center' }}>Forest animals thrive in nature's embrace, contributing to the vibrant symphony of life within the lush canopies and diverse ecosystems of the woodland realm</p>
+              </div>
+            </div>
+          </div>
+        </ParallaxLayer>
+
+        {/* Fourth Layer */}
+        <ParallaxLayer offset={3} speed={0.3} factor={1.5} style={{ backgroundImage: `url(${UnderWater1})`, backgroundSize: 'cover',backgroundColor:'#36231c',backgroundPosition:'top',backgroundRepeat:'no-repeat',backgroundAttachment:'fixed'}}>
+          <div className="container my-5">
+            <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 ">
+              <div className="col-lg-6">
+                <h3 className="display-5 fw-bold lh-1 mb-3" style={{ color: 'white', textAlign: 'center' }}>In the Heart of the Forest, Animals Write Their Story.</h3>
+                <p className="lead" style={{ color: 'white', textAlign: 'center' }}>Forest animals thrive in nature's embrace, contributing to the vibrant symphony of life within the lush canopies and diverse ecosystems of the woodland realm</p>
+              </div>
+            </div>
+          </div>
+        </ParallaxLayer>
+
+      
+      </Parallax>
+
+{/* About ParallaxLayer  */} 
+      <ParallaxLayer sticky={{start:0.1,end:0.4}}>
+      <div style={{ display: 'flex', justifyContent:'center', alignItems: 'center' }}>
+  <img src="https://th.bing.com/th/id/R.640686277ceefcaf11f064be4c55a8e5?rik=0PASRKZx32CnWw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcloud%2fcloud_PNG25.png&ehk=VTBmv3KxFaIuUI8gAHo3wk8gu53uGyz%2bIQamVlKauKw%3d&risl=&pid=ImgRaw&r=0" style={{ width: '350px', height: '350px' }} />
+</div>
+
+       </ParallaxLayer>
+       {/*"https://th.bing.com/th/id/R.640686277ceefcaf11f064be4c55a8e5?rik=0PASRKZx32CnWw&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcloud%2fcloud_PNG25.png&ehk=VTBmv3KxFaIuUI8gAHo3wk8gu53uGyz%2bIQamVlKauKw%3d&risl=&pid=ImgRaw&r=0"*/}
     </div>
   )
 }

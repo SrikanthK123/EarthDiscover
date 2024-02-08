@@ -1,11 +1,15 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-
+import {Parallaxlayer} from '@react-spring/parallax'
 import SkyImg from '../Images/Sky4.jpg'
 import Forest from '../Images/Forest.jpg'
+import GalaxyWorld from '../Images/GalaxyWorld.jpg'
 import Ocean from '../Images/Ocean5.jpg'
 import BirdGif from '../Images/BirdGif.gif'
 import LionGif from '../Images/LionGif.gif'
+import {
+  Link
+} from "react-router-dom";
 import FishGif from '../Images/Clown-Fish.gif'
 const Home = () => {
   return (
@@ -69,7 +73,7 @@ const Home = () => {
   </div>
 </div>
 
-    <Parallax className='SkyImage'  bgImage={Forest} bgImageAlt="the sky" strength={800} bgImageStyle={{ width: '100%', height: '100vh', backgroundSize: 'cover' }}  >
+    <Parallax className='SkyImage'  bgImage={Forest} bgImageAlt="the sky" strength={800} bgImageStyle={{ width: '100%', height: '100vh', backgroundSize: 'cover' }} >
     <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 " >
    
@@ -169,7 +173,58 @@ Beneath the surface of Earth's vast oceans lies a mysterious and awe-inspiring u
 </div>
 
 
-
+<div className='BGChangeTesting'>
+         <div class="container col-xxl-8 px-4 py-1"  >
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" >
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src={GalaxyWorld} class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  loading="lazy" style={{borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px',width:'300px',height:'300px'}}/>
+        </div>
+        <div class="col-lg-6" id='Box'>
+            <h2 class="fw-bold "  id='MainTitle'><span >ExploreWorld: Unveil Endless Wonders!</span></h2>
+            <p class="lead" style={{textAlign:'justify'}} id='Para'><span> Embark on a journey to uncover hidden gems, where every step reveals new wonders. Embrace the thrill of exploration with us</span></p>
+           <Link to="/GalaxyWorld" style={{textDecoration:'none'}}> 
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Galaxy</button>
+            
+            </div>
+            </Link>
+        </div>
+        </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-1" >
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" >
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://images.unsplash.com/photo-1566849787933-0bab0fafa2a4?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  loading="lazy" style={{borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px',width:'300px',height:'300px'}}/>
+        </div>
+        <div class="col-lg-6" id='Box'>
+            <h2 class="fw-bold "  id='MainTitle'><span >ExploreWorld: Unveil Endless Wonders!</span></h2>
+            <p class="lead" style={{textAlign:'justify'}} id='Para'><span> Embark on a journey to uncover hidden gems, where every step reveals new wonders. Embrace the thrill of exploration with us</span></p>
+            
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Earth</button>
+            
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container col-xxl-8 px-4 py-1" >
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" >
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img src='https://images.unsplash.com/photo-1488659238171-02308fb27672?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  loading="lazy" style={{borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.35) 0px 5px 15px',width:'300px',height:'300px'}}/>
+        </div>
+        <div class="col-lg-6" id='Box'>
+            <h2 class="fw-bold "  id='MainTitle'><span >ExploreWorld: Unveil Endless Wonders!</span></h2>
+            <p class="lead" style={{textAlign:'justify'}} id='Para'><span> Embark on a journey to uncover hidden gems, where every step reveals new wonders. Embrace the thrill of exploration with us</span></p>
+            
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Nature</button>
+            
+            </div>
+        </div>
+        </div>
+        </div>
+        
+    </div>
       
     </div>
   )
