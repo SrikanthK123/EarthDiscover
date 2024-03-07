@@ -133,7 +133,7 @@ const About = () => {
         </div>
           <div id="TextAnimation">
         <p >
-          Embark on a fascinating journey through the cosmos. Your project will
+          Embark on a fascinating journey through the cosmos. My project will
           uncover the mysteries of distant galaxies, showcasing celestial beauty
           and the vastness of space. 🌌
         </p>

@@ -60,12 +60,7 @@ const Test = () => {
         <div class="col-lg-6" id='Box'>
             <h2 class="fw-bold "  id='MainTitle'><span >ExploreWorld: Unveil Endless Wonders!</span></h2>
             <p class=""  style={{textAlign:'justify'}} id='Para'><span> Embark on a journey to uncover hidden gems, where every step reveals new wonders. Embrace the thrill of exploration with us</span></p>
-            <Link to="/GalaxyWorld" style={{textDecoration:'none'}}> 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Galaxy</button>
-            
-            </div>
-            </Link>
+          
         </div>
         </div>
     </div>
@@ -105,12 +100,7 @@ const Test = () => {
         <div class="col-lg-6" id='Box2'>
             <h2 class=" fw-bold  lh-1 mb-3" id='MainTitle'><span>Explore Earth's Wonders by Balloon!</span></h2>
             <p class="" id='Para'><span>Embark on a soaring adventure as you rise above in a hot air balloon, unveiling Earth's breathtaking wonders from a unique vantage point, where the sky meets the extraordinary landscapes below.</span></p>
-            <Link to="/Nature" style={{textDecoration:'none'}}> 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Earth</button>
-            
-            </div>
-            </Link>
+         
         </div>
         </div>
     </div>
@@ -128,12 +118,7 @@ const Test = () => {
         <div class="col-lg-6" id='Box3'>
             <h2 class=" fw-bold  lh-1 mb-3" id='MainTitle'><span>Stargaze in Moonlit Forests: Nature's Nighttime Symphony.</span></h2>
             <p class="" id='Para'><span>Step into a moonlit forest, where stars weave a cosmic tapestry above. A serene sanctuary, where nature's nocturnal charm comes alive under the gentle glow of the moon</span></p>
-            <Link to="/GalaxyWorld" style={{textDecoration:'none'}}> 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" id='ExploreBtn'  class=" btn-lg px-4 me-md-2" >Explore Nature</button>
-            
-            </div>
-            </Link>
+          
         </div>
         </div>
     </div>
