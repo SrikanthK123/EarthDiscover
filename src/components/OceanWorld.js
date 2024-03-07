@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import OceanVideo from '../Images/OceanWorld.mp4'  
@@ -6,6 +6,9 @@ import OceanImage from '../Images/Ocean5.jpg'
 import JellyFish from '../Images/jellyFish.gif'
 
 const OceanWorld = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     const Fish = [
         {
             Name :'ClownFish',

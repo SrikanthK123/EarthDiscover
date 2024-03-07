@@ -1,10 +1,13 @@
-import React from 'react';
+import React ,{useEffect} from 'react';
 import GalaxyWorld from '../Images/Mercury.mp4'
 import {
     Link
   } from "react-router-dom";
 
 const Planets = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
 
   return (
     <div>

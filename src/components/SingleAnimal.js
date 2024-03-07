@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 const SingleAnimal = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div style={{backgroundColor:'#155263',width:'100%',height:'auto'}}>
    <div class="p-5 mb-4 rounded-3" id='AnimalsGif' style={{

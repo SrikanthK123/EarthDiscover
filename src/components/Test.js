@@ -1,5 +1,5 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import React from 'react'
+import React, {useEffect} from 'react'
 import GalaxyWorld from '../Images/GalaxyWorld.jpg'
 import GalaxyVideo from '../Images/GalaxySpaceVideo.mp4'
 import Forest from '../Images/Forest2.jpg'
@@ -7,6 +7,9 @@ import {
     Link
   } from "react-router-dom";
 const Test = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div style={{backgroundColor:'#a2a8d3',width:'100%',height:'auto'}}>
 

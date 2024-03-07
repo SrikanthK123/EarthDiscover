@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState,useEffect} from 'react'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import NatureVideo from '../Images/Nature.mp4'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
@@ -107,6 +107,9 @@ const NormalBG =()=>{
   setContainerColor('rgba(22, 20, 21, 0.86)')
 }
       
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []); 
   return (
     <div style={{backgroundColor:'#252A36',width:'100%',height:'100vh'}}>
         <Parallax pages={5} id='ParallaxMain'>

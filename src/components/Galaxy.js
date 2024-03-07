@@ -1,5 +1,5 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import GalaxyWorld from '../Images/GalaxyWorldUni.mp4'
 
 import {
@@ -78,6 +78,9 @@ const NormalBG =()=>{
       description: "Neptune is the farthest planet from the Sun and is known for its vibrant blue color. It has powerful winds and a dynamic atmosphere.",
     },
   ]
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
     
   return (
     <div style={{backgroundColor:'#252A36',width:'100%',height:'100vh'}}>
